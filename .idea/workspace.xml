@@ -56,14 +56,6 @@
       <change afterPath="$PROJECT_DIR$/../food/main.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../food/style/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../githubUsers/.idea/githubUsers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/portfolio for github.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/.idea/Hotels.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/projects/Hotels/SignUp.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/projects/Hotels/db.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/projects/Hotels/details.html" afterDir="false" />
@@ -118,15 +110,10 @@
       <change afterPath="$PROJECT_DIR$/projects/Hotels/style/variable.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/projects/Hotels/util.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/projects/first sass/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/food/readme.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../todo/.idea/Javascript.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Sentobar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Sentobar/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/Sentobar/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Sentobar/index2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/Sentobar/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Sentobar/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/bootstrap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/bootstrap/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/bootstrap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/first sass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/first sass/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/first sass/_main-content-vol2.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/first sass/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/first sass/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/first sass/style/_diagram.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/first sass/style/_diagram.scss" afterDir="false" />
@@ -137,8 +124,6 @@
       <change beforePath="$PROJECT_DIR$/projects/first sass/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/first sass/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/first sass/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/projects/first sass/style/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/food/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/food/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/mobile page/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/projects/mobile page/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/mobile page/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/mobile page/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/mobile page/home1.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/mobile page/home1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/mobile page/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/mobile page/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/mobile page/style/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/mobile page/style/_home.scss" afterDir="false" />
@@ -151,7 +136,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1sfKa74Ll5rIOihVhOmA21Wzyb6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -172,6 +157,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -182,7 +168,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621258263314</updated>
-      <workItem from="1621258264664" duration="2383000" />
+      <workItem from="1621258264664" duration="2851000" />
     </task>
     <servers />
   </component>
