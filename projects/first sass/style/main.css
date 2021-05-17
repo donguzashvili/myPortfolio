@@ -1,0 +1,1622 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  color: gray;
+}
+
+.main-content {
+  display: block;
+  background-color: #F8F8FB;
+  height: auto;
+  margin-left: 250px;
+  overflow: hidden;
+}
+@media screen and (max-width: 1000px) {
+  .main-content {
+    margin-left: 0;
+  }
+}
+.main-content .main-content-padding {
+  padding: 0 20px;
+}
+.main-content .main-content-padding .card-content {
+  padding-top: 100px;
+}
+.main-content .main-content-padding .card-content header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 20px;
+}
+.main-content .main-content-padding .card-content header h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  color: 495057;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.main-content .main-content-padding .card-content header p {
+  color: 495057;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  margin: 0;
+}
+.main-content .main-content-padding .main-wrap .main-cards {
+  display: flex;
+}
+@media screen and (max-width: 1150px) {
+  .main-content .main-content-padding .main-wrap .main-cards {
+    display: block;
+  }
+}
+.main-content .main-content-padding .main-wrap .main-cards .right-side-cards {
+  display: block;
+  width: 70%;
+}
+@media screen and (max-width: 1150px) {
+  .main-content .main-content-padding .main-wrap .main-cards .right-side-cards {
+    width: 100%;
+  }
+}
+.main-content .main-content-padding .main-wrap .main-cards .right-side-cards header {
+  display: flex;
+  justify-content: space-between;
+}
+.main-content .main-content-padding .main-wrap .main-cards .right-side-cards header h3 {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.main-content .main-content-padding .main-wrap .main-cards .right-side-cards header div button {
+  background-color: #556ee6;
+  border: none;
+  border-radius: 3px;
+  padding: 7px 2px;
+}
+.main-content .main-content-padding .main-wrap .main-cards .right-side-cards header div button a {
+  color: white;
+}
+.main-content .main-content-padding .main-wrap .main-cards .right-side-cards header div a {
+  text-decoration: none;
+  color: 495057;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  padding: 8px 16px;
+}
+.main-content .main-content-padding .right-top-side {
+  display: flex;
+  padding: 0 10px;
+  justify-content: center;
+  width: 94.5%;
+}
+@media screen and (max-width: 500px) {
+  .main-content .main-content-padding .right-top-side {
+    margin-top: 100px !important;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .main-content .main-content-padding .right-top-side {
+    padding: 0;
+    margin: 0 0 20px;
+  }
+}
+.main-content .main-content-padding .right-top-side .card {
+  border-radius: 7px;
+  height: 60px;
+  width: 31%;
+  margin: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+@media screen and (max-width: 500px) {
+  .main-content .main-content-padding .right-top-side .card {
+    width: 100%;
+  }
+}
+.main-content .main-content-padding .right-top-side .card .icon-border {
+  background-color: #556EE6;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.main-content .main-content-padding .right-top-side .card .icon-border :after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 54px;
+  background-color: rgba(255, 255, 255, 0.1);
+  left: 16px;
+  -webkit-transform: rotate(32deg);
+  transform: rotate(32deg);
+  top: -5px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.main-content .main-content-padding .right-top-side .card .icon-border i {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+.main-content .main-content-padding .right-top-side .card div h5 {
+  margin: 0;
+  font-size: 20px;
+  color: #495057;
+  white-space: nowrap;
+}
+.main-content .main-content-padding .right-top-side .card div p {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  color: #9f9f9f;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.main-content .left-side-cards {
+  height: 587px;
+  width: 30%;
+}
+@media screen and (max-width: 1150px) {
+  .main-content .left-side-cards {
+    width: 100% !important;
+    margin: 0 0 65px;
+  }
+}
+.main-content .left-side-cards .left-bot-card {
+  height: auto;
+  width: 100%;
+  background-color: white;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.main-content .left-side-cards .left-bot-card .left-bot-card-padding {
+  padding: 20px;
+}
+.main-content .left-side-cards .left-bot-card .left-bot-card-padding div {
+  display: flex;
+}
+.main-content .left-side-cards .left-bot-card .left-bot-card-padding div .statistic img {
+  width: 100px;
+  height: 100px;
+  object-fit: fill;
+}
+.main-content .left-side-cards .left-bot-card .left-bot-card-padding div .this-month {
+  display: block;
+}
+@media screen and (max-width: 1150px) {
+  .main-content .left-side-cards .left-bot-card .left-bot-card-padding div .this-month {
+    width: 100%;
+  }
+}
+.main-content .left-side-cards .left-bot-card .left-bot-card-padding div .this-month p {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  margin: 0 0 16px;
+  color: #9f9f9f;
+  width: 60%;
+}
+.main-content .left-side-cards .left-bot-card .left-bot-card-padding div .this-month p span {
+  color: #34c38f !important;
+}
+.main-content .left-side-cards .left-bot-card .left-bot-card-padding div .this-month h3 {
+  color: #495057;
+  font-size: 22px;
+  margin: 0 0 8px;
+}
+.main-content .left-side-cards .left-bot-card .left-bot-card-padding header {
+  font-size: 15px;
+  margin: 0 0 7px 0;
+  font-weight: 600;
+  color: #495057;
+}
+.main-content .left-side-cards .left-bot-card .left-bot-card-padding footer button {
+  padding: 5px 8px;
+  color: #fff;
+  background-color: #556ee6;
+  border: none;
+  border-radius: 2px;
+  font-size: 11px;
+}
+.main-content .left-side-cards .left-bot-card .left-bot-card-padding footer button:hover {
+  cursor: pointer;
+}
+.main-content .left-side-cards .left-bot-card .left-bot-card-padding footer p {
+  color: #9f9f9f;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  width: 90%;
+}
+.main-content .left-side-cards .left-top-card {
+  width: 100%;
+  height: 235px;
+}
+@media screen and (max-width: 1150px) {
+  .main-content .left-side-cards .left-top-card {
+    margin: 0 0 148px;
+  }
+}
+.main-content .left-side-cards .left-top-card .top-top {
+  height: 230px;
+  width: 100%;
+}
+.main-content .left-side-cards .left-top-card .top-top .top-side {
+  background-color: #D4DBF9;
+  display: flex;
+  height: 40%;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+@media screen and (max-width: 1150px) {
+  .main-content .left-side-cards .left-top-card .top-top .top-side {
+    height: 90%;
+  }
+}
+@media screen and (max-width: 290px) {
+  .main-content .left-side-cards .left-top-card .top-top .top-side {
+    display: block;
+  }
+}
+.main-content .left-side-cards .left-top-card .top-top .top-side div h2 {
+  font-size: 16px;
+  color: #556ee6 !important;
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
+}
+@media screen and (max-width: 290px) {
+  .main-content .left-side-cards .left-top-card .top-top .top-side div h2 {
+    margin: 5px auto 0;
+  }
+}
+.main-content .left-side-cards .left-top-card .top-top .top-side div p {
+  font-size: 13px;
+  color: #556ee6 !important;
+  white-space: nowrap;
+  margin: 0;
+}
+.main-content .left-side-cards .left-top-card .top-top .top-side span {
+  height: 100px;
+  width: 100px;
+}
+@media screen and (max-width: 1150px) {
+  .main-content .left-side-cards .left-top-card .top-top .top-side span {
+    height: 200px;
+    width: 300px;
+  }
+}
+.main-content .left-side-cards .left-top-card .top-top .top-side span img {
+  object-fit: fill;
+  height: 80px;
+  width: 125px;
+}
+@media screen and (max-width: 1150px) {
+  .main-content .left-side-cards .left-top-card .top-top .top-side span img {
+    height: 150px;
+    width: 150px;
+  }
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side {
+  background-color: white;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side {
+  display: flex;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .avatar-side {
+  border-radius: 50% !important;
+  padding: 0 15px;
+  width: 30%;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .avatar-side img {
+  border: 5px solid #f6f6f6;
+  border-radius: 50% !important;
+  height: 60px;
+  width: 60px;
+  margin: -26px 0;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .description-side {
+  width: 100%;
+  padding: 20px 15px;
+  margin: 15px 0;
+  text-overflow: ellipsis;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .description-side h5 {
+  margin: 0;
+  font-size: 15px;
+  color: #495057;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .description-side p {
+  color: #74788d !important;
+  margin: 0;
+  width: 100%;
+  padding: 10px 0 0 0;
+  font-size: 13px;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .right-side {
+  width: 100%;
+  display: block;
+  padding: 0 20px 20px;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .right-side .button-side {
+  margin: 24px 0 0;
+  padding-left: 5px;
+}
+@media screen and (max-width: 1150px) {
+  .main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .right-side .button-side {
+    padding: 0 21%;
+  }
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .right-side .button-side button {
+  padding: 5px 8px;
+  color: #fff;
+  background-color: #556ee6;
+  border: none;
+  border-radius: 2px;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .right-side .button-side button:hover {
+  cursor: pointer;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .right-side .button-side button a {
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .right-side .button-side button a .button-icon {
+  font-size: 10px;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .right-side .project {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+@media screen and (max-width: 1150px) {
+  .main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .right-side .project {
+    justify-content: space-around;
+  }
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .right-side .project .project-side h6 {
+  margin-top: 15px;
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .right-side .project .project-side p {
+  margin: 0;
+  color: #74788d !important;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .right-side .project .revenue-side h6 {
+  margin-bottom: 7px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+.main-content .left-side-cards .left-top-card .top-top .bot-side .bot-avatar-side .right-side .project .revenue-side p {
+  font-size: 0.6rem;
+  margin: 0;
+  color: #74788d !important;
+}
+
+/*js classes*/
+.responsive-menu {
+  display: block !important;
+  width: 200px !important;
+}
+
+.responsive-logo {
+  width: 176px !important;
+  display: flex !important;
+  justify-content: center;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.top-nav {
+  display: flex;
+  position: fixed;
+  height: 70px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  z-index: 99999;
+}
+@media screen and (max-width: 1230px) {
+  .top-nav .nav-form ul .logo-nav {
+    width: auto;
+  }
+}
+.top-nav .nav-form ul .logo-nav .logo {
+  height: 70px;
+  background-color: #293041;
+  padding: 0 24px;
+}
+@media screen and (max-width: 1000px) {
+  .top-nav .nav-form ul .logo-nav .logo {
+    display: none;
+  }
+}
+.top-nav .nav-form ul .logo-nav .logo img {
+  width: 87px;
+  height: 19px;
+  padding: 25px 55px;
+}
+.top-nav .nav-form ul .logo-nav .logo2 {
+  display: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .top-nav .nav-form ul .logo-nav .logo2 {
+    display: flex;
+    justify-content: center;
+    background-color: #293041;
+    text-align: center;
+    width: 70px;
+    height: 58px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .top-nav .nav-form ul .logo-nav .logo2 {
+    width: 50px;
+  }
+}
+.top-nav .nav-form ul .logo-nav .logo2 img {
+  display: none;
+}
+@media screen and (max-width: 1230px) {
+  .top-nav .nav-form ul .logo-nav .logo2 img {
+    display: flex;
+    height: 22px;
+    padding: 18px 25px;
+  }
+}
+.top-nav .nav-form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.top-nav .nav-form ul {
+  display: flex;
+  margin: 0;
+  padding-left: 0 !important;
+}
+.top-nav .nav-form ul #responsive-menu {
+  background: #293041;
+  display: none;
+}
+.top-nav .nav-form ul li {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  padding-right: 5px;
+}
+.top-nav .nav-form form {
+  position: relative;
+  padding-top: 20px !important;
+  font-size: 13px;
+}
+.top-nav .nav-form form :focus {
+  outline: none;
+}
+.top-nav .nav-form form input {
+  background-color: #F8F8FB;
+  border-radius: 30px;
+  padding: 8px 20px 8px 40px !important;
+  height: 38px;
+  border: none;
+}
+.top-nav .nav-form form .search-icon {
+  position: absolute;
+  top: 25px;
+  left: 10px;
+  height: 20px;
+  width: 20px;
+  z-index: 99999;
+  color: #74788d;
+  font-size: 16px;
+}
+.top-nav .nav-form :first-child {
+  align-items: center;
+  padding: 7.5px 12px;
+}
+@media screen and (max-width: 1230px) {
+  .top-nav .nav-form :first-child .media_query {
+    display: none;
+  }
+}
+.top-nav .nav-form :first-child li button {
+  display: flex;
+  border: none;
+  background-color: white;
+  outline: none;
+  color: #555b6d;
+}
+.top-nav .nav-form :first-child li button:hover {
+  cursor: pointer;
+}
+.top-nav .nav-form :first-child li button p {
+  font-size: 16px;
+}
+.top-nav .nav-form :first-child li button span {
+  padding-top: 10px;
+  padding-left: 0px;
+  font-size: 16px;
+}
+.top-nav .nav-form :last-child {
+  padding: 7.5px 12px;
+  align-items: center;
+}
+@media screen and (max-width: 1230px) {
+  .top-nav .nav-form :last-child .media_query {
+    display: none;
+  }
+}
+.top-nav .nav-form :last-child li {
+  position: relative;
+}
+.top-nav .nav-form :last-child li:hover {
+  cursor: pointer;
+}
+.top-nav .nav-form :last-child li .notification {
+  position: absolute;
+  background-color: #f46a6a;
+  color: white;
+  border-radius: 10rem;
+  padding: 2px 5px;
+  top: -7px;
+  right: 0;
+  font-size: 75%;
+}
+.top-nav .nav-form :last-child li .henry {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border: none;
+  background-color: white;
+  outline: none;
+}
+.top-nav .nav-form :last-child li .henry:hover {
+  cursor: pointer;
+}
+.top-nav .nav-form :last-child li .henry img {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  padding: 3px;
+}
+@media screen and (max-width: 1330px) {
+  .top-nav .nav-form :last-child li .henry p {
+    display: none;
+  }
+}
+@media screen and (max-width: 1330px) {
+  .top-nav .nav-form :last-child li .henry span {
+    display: none;
+  }
+}
+.top-nav .nav-form :last-child li i {
+  font-size: 22px;
+  color: #555b6d;
+}
+.top-nav .nav-form :last-child li img {
+  height: 16px;
+}
+
+.left-nav {
+  background-color: #293041;
+  position: fixed;
+  top: 70px;
+  width: 250px;
+  overflow: scroll;
+  max-height: 95%;
+  z-index: 100;
+}
+@media screen and (max-width: 1230px) {
+  .left-nav {
+    width: 244.5px;
+  }
+}
+.left-nav::-webkit-scrollbar {
+  width: 2px;
+}
+@media screen and (max-width: 1000px) {
+  .left-nav {
+    display: none;
+  }
+}
+.left-nav ul {
+  display: block;
+  padding: 0;
+}
+.left-nav ul .dashboard {
+  color: white !important;
+}
+.left-nav ul .li-no-padding:hover {
+  padding: 15px 30px;
+}
+.left-nav ul li {
+  position: relative;
+  list-style: none;
+  color: #a6b0cf;
+  padding: 15px 30px;
+  font-size: 12px;
+  transition: 0.4s all linear;
+  font-family: "Poppins", sans-serif;
+}
+.left-nav ul li:hover {
+  color: white;
+  cursor: pointer;
+  padding: 0 30px;
+}
+.left-nav ul li:hover .dropdown-dash {
+  display: block !important;
+}
+.left-nav ul li .dropdown-dash {
+  display: none;
+}
+.left-nav ul li .dropdown-dash li {
+  padding: 7px 24px 7px 35px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  color: #79829c;
+}
+.left-nav ul li .dropdown-dash li:hover {
+  color: white;
+}
+.left-nav ul li i {
+  font-size: 1.25rem;
+  padding-right: 10px;
+}
+.left-nav ul li .zero-three {
+  background-color: #50a5f1;
+  float: right !important;
+  border-radius: 10rem;
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  padding-top: 3px;
+  font-size: 10px;
+}
+.left-nav ul li .new {
+  background-color: #34c38f;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  border-radius: 10rem;
+  color: white !important;
+  font-size: 10px;
+  float: right;
+}
+.left-nav ul li .ten {
+  background-color: #f46a6a;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  border-radius: 10rem;
+  color: white !important;
+  font-size: 10px;
+  float: right;
+}
+.left-nav ul li span {
+  float: right;
+}
+.left-nav ul .nav-title {
+  padding: 12px 20px !important;
+  pointer-events: none;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #6a7187;
+}
+
+.mega-menu {
+  display: flex;
+  background-color: white;
+  border: none;
+  padding: 0 24px 0 0 !important;
+}
+.mega-menu p {
+  font-size: 13px !important;
+}
+
+.logo-nav {
+  width: 250px;
+  padding: 0 !important;
+}
+.logo-nav .logo img {
+  padding: 20px 0;
+}
+
+.right-bot-side {
+  padding: 10px;
+  height: 400px;
+  width: 89%;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side {
+    width: 88% !important;
+    overflow-x: auto;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1230px) and (min-width: 1150px) {
+  .right-bot-side {
+    width: 88% !important;
+    margin: 0 0 70px;
+  }
+}
+@media screen and (max-width: 1150px) and (min-width: 500px) {
+  .right-bot-side {
+    width: 98% !important;
+    margin: 0 0 70px;
+    padding: 0;
+  }
+}
+.right-bot-side .big-card-body {
+  border-radius: 7px;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  margin: 5px;
+  padding: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .right-bot-side .big-card-body {
+    width: 97%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .right-bot-side .big-card-body {
+    width: 92%;
+  }
+}
+.right-bot-side .big-card-body footer .diagram-descriptions {
+  display: flex;
+  justify-content: center;
+  padding: 13px 0;
+}
+.right-bot-side .big-card-body footer .diagram-descriptions .diagram-box-container {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.right-bot-side .big-card-body footer .diagram-descriptions .diagram-box-container .green {
+  background-color: #34c38f;
+}
+.right-bot-side .big-card-body footer .diagram-descriptions .diagram-box-container .green:hover {
+  opacity: 0.8;
+}
+.right-bot-side .big-card-body footer .diagram-descriptions .diagram-box-container .yellow {
+  background-color: #f1b44c;
+}
+.right-bot-side .big-card-body footer .diagram-descriptions .diagram-box-container .yellow:hover {
+  opacity: 0.8;
+}
+.right-bot-side .big-card-body footer .diagram-descriptions .diagram-box-container .blue {
+  background-color: #556ee6;
+}
+.right-bot-side .big-card-body footer .diagram-descriptions .diagram-box-container .blue:hover {
+  opacity: 0.8;
+}
+.right-bot-side .big-card-body footer .diagram-descriptions .diagram-box-container .colors {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+}
+.right-bot-side .big-card-body footer .diagram-descriptions .diagram-box-container p {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: #74788d;
+  font-weight: 400;
+}
+.right-bot-side .big-card-body .diagram {
+  height: 80%;
+  width: 100%;
+  position: relative;
+}
+.right-bot-side .big-card-body .diagram .horizontal {
+  height: 100%;
+  width: 90%;
+  position: absolute;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .horizontal {
+    height: 25%;
+  }
+}
+.right-bot-side .big-card-body .diagram .horizontal li {
+  height: 3px #9f9f9f;
+  list-style: none;
+  border-bottom: 1px solid #9f9f9f;
+  padding: 26px 0;
+  position: relative;
+  bottom: 246px;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.1;
+}
+.right-bot-side .big-card-body .diagram .vertical {
+  display: flex;
+  height: 70%;
+  position: relative;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart {
+  position: absolute;
+  display: flex;
+  gap: 0.6rem;
+  padding: 0 10px;
+  width: 90%;
+  bottom: -48%;
+  left: 45px;
+  align-items: flex-end;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart {
+    left: 27px;
+    gap: 1rem;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements {
+  width: auto;
+  bottom: 0;
+  padding: 0 9px;
+  z-index: 2;
+}
+@media screen and (max-width: 500px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements {
+    padding: 0 0.01% !important;
+    width: 7px;
+  }
+}
+@media screen and (max-width: 1230px) and (min-width: 1150px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements {
+    padding: 0 1% !important;
+  }
+}
+@media screen and (max-width: 1150px) and (min-width: 800px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements {
+    padding: 0 2% !important;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 500px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements {
+    padding: 0 0.7% !important;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .color {
+  position: relative;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .color .hover-effect {
+  position: absolute;
+  z-index: 4;
+  padding: 0;
+  list-style: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #c4c4c4;
+  visibility: hidden;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .color .hover-effect .monthes {
+  background-color: #ECEFF1;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid #e1e2e5;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .color .hover-effect .monthes p {
+  padding: 5px 3px;
+  margin: 0;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .color .hover-effect .series {
+  height: 20px;
+  padding: 5px 12px;
+  display: flex;
+  background-color: rbga(0, 0, 0, 0.7);
+  z-index: 4;
+  align-items: center;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .color .hover-effect .series span {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background-color: green;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .color .hover-effect .series p {
+  z-index: 4;
+  white-space: nowrap;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 5px;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .month {
+  color: #adb5bd;
+  font-size: 10px;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .month {
+    font-size: 8px;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-1 {
+  height: 110px !important;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-1 {
+    height: 70px !important;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-2 {
+  height: 130px !important;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-2 {
+    height: 80px !important;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-3 {
+  height: 100px !important;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-3 {
+    height: 60px !important;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-4 {
+  height: 160px !important;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-4 {
+    height: 100px !important;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-5 {
+  height: 55px !important;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-5 {
+    height: 35px !important;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-6 {
+  height: 110px !important;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-6 {
+    height: 70px !important;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-7 {
+  height: 90px !important;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-7 {
+    height: 50px !important;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-8 {
+  height: 115px !important;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-8 {
+    height: 85px !important;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-9 {
+  height: 55px !important;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-9 {
+    height: 30px !important;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-10 {
+  height: 40px !important;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-10 {
+    height: 25px !important;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-11 {
+  height: 90px !important;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-11 {
+    height: 65px !important;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-12 {
+  height: 105px !important;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .b-12 {
+    height: 75px !important;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .bottom-line {
+  position: absolute;
+  bottom: 0;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .blue {
+  height: 30px;
+  width: 7px;
+  background-color: #556ee6;
+  border-radius: 3px;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .blue {
+    width: 3px;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .green {
+  height: 50px;
+  width: 7px;
+  background-color: green;
+  border-radius: 3px;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .green {
+    width: 3px;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .yellow {
+  height: 30px;
+  width: 7px;
+  background-color: #f1b44c;
+  border-radius: 3px;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .yellow {
+    width: 3px;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .green {
+  height: 50px;
+  width: 7px;
+  background-color: #34c38f;
+  border-radius: 3px;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .green {
+    width: 3px;
+  }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .month {
+  padding-top: 10px;
+}
+.right-bot-side .big-card-body .diagram .vertical .numbers {
+  display: block;
+  color: #adb5bd;
+  font-size: 10px;
+  height: 100%;
+}
+.right-bot-side .big-card-body .diagram .vertical .numbers p {
+  padding: 30px 0 0 20px;
+}
+@media screen and (max-width: 544px) {
+  .right-bot-side .big-card-body .diagram .vertical .numbers p {
+    padding: 16px 0 0 13px;
+  }
+}
+
+.green:hover {
+  opacity: 0.6;
+}
+
+.yellow:hover {
+  opacity: 0.6;
+}
+
+.blue:hover {
+  opacity: 0.6;
+}
+
+.middle-cards {
+  padding: 10px 0;
+  display: flex;
+  height: auto;
+  width: 98%;
+}
+@media screen and (max-width: 1220px) {
+  .middle-cards {
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  .middle-cards {
+    display: block;
+  }
+}
+.middle-cards :first-child {
+  margin-left: 0 !important;
+}
+.middle-cards .social-source {
+  padding-right: 20px;
+  margin: 0;
+  height: 100%;
+}
+.middle-cards .social-source .social-containers {
+  display: flex;
+}
+@media screen and (max-width: 1220px) {
+  .middle-cards .social-source .social-containers {
+    justify-content: space-around;
+  }
+}
+.middle-cards .social-source .social-containers .social-circle {
+  text-align: center;
+}
+.middle-cards .social-source .social-containers .social-circle .social-descr h3 {
+  margin: 0 0 15px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #495057;
+}
+.middle-cards .social-source .social-containers .social-circle .social-descr p {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: #9f9f9f;
+}
+.middle-cards .social-source .social-containers .social-circle .instagram {
+  background-color: #e83e8c !important;
+}
+.middle-cards .social-source .social-containers .social-circle .twitter {
+  background-color: #50a5f1 !important;
+}
+.middle-cards .social-source .social-containers .social-circle .facebook {
+  background-color: #556ee6;
+}
+.middle-cards .social-source .social-containers .social-circle .social-move {
+  padding: 10px 20px;
+}
+.middle-cards .social-source .social-containers .social-circle .social-move .container {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle-cards .social-source .social-containers .social-circle .social-move .container i {
+  color: white;
+}
+.middle-cards .social-source .social-mid-text {
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+.middle-cards .social-source .social-mid-text .fb-avatar {
+  display: flex;
+  justify-content: center;
+}
+.middle-cards .social-source .social-mid-text .fb-avatar div {
+  background-color: rgba(85, 110, 230, 0.25) !important;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle-cards .social-source .social-mid-text .fb-avatar div i {
+  font-size: 24px;
+  color: #556ee6;
+}
+.middle-cards .social-source .social-mid-text a {
+  color: #556ee6 !important;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+}
+.middle-cards .social-source .social-mid-text p {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: #9f9f9f;
+  margin: 0 0 16px;
+}
+.middle-cards .social-source .social-mid-text .facebook-mute {
+  display: flex;
+  justify-content: center;
+}
+.middle-cards .social-source .social-mid-text .facebook-mute h4 {
+  color: #343a40 !important;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.middle-cards .social-source .social-mid-text .facebook-mute .mute {
+  color: #9f9f9f !important;
+  font-size: 16px !important;
+  font-family: "Poppins", sans-serif !important;
+  padding-left: 3px;
+}
+.middle-cards .mid-card {
+  border-radius: 7px;
+  height: 100%;
+  width: 32%;
+  background-color: white;
+  margin: 0 20px;
+  padding: 20px;
+  position: relative;
+}
+@media screen and (max-width: 1220px) {
+  .middle-cards .mid-card {
+    width: 95%;
+    height: auto;
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .middle-cards .mid-card {
+    width: 90% !important;
+    margin: 20px 0 !important;
+  }
+}
+.middle-cards .mid-card .top-cities-table {
+  padding: 40px 0;
+}
+.middle-cards .mid-card .top-cities-table table {
+  border-collapse: collapse;
+}
+@media screen and (max-width: 1220px) {
+  .middle-cards .mid-card .top-cities-table table {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .middle-cards .mid-card .top-cities-table table {
+    width: 87%;
+  }
+}
+.middle-cards .mid-card .top-cities-table table tr td {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: 495057;
+  padding: 10px;
+  border-top: 1px solid #eff2f7;
+  white-space: nowrap;
+}
+@media screen and (max-width: 1220px) {
+  .middle-cards .mid-card .top-cities-table table tr td {
+    padding: 25px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .middle-cards .mid-card .top-cities-table table tr td {
+    padding: 15px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .middle-cards .mid-card .top-cities-table table tr td {
+    padding: 15px;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 290px) {
+  .middle-cards .mid-card .top-cities-table table tr td {
+    font-size: 8px;
+  }
+}
+.middle-cards .mid-card .top-cities-table table tr td h5 {
+  font-size: 16px;
+  margin: 0;
+}
+@media screen and (max-width: 290px) {
+  .middle-cards .mid-card .top-cities-table table tr td h5 {
+    font-size: 10px;
+  }
+}
+.middle-cards .mid-card .top-cities-table table tr td .line-yellow {
+  height: 4px;
+  width: 40px;
+  background-color: #f1b44c;
+  border-radius: 8px;
+}
+@media screen and (max-width: 1220px) {
+  .middle-cards .mid-card .top-cities-table table tr td .line-yellow {
+    width: 160px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .middle-cards .mid-card .top-cities-table table tr td .line-yellow {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .middle-cards .mid-card .top-cities-table table tr td .line-yellow {
+    width: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .middle-cards .mid-card .top-cities-table table tr td .line-yellow {
+    width: 0px;
+  }
+}
+.middle-cards .mid-card .top-cities-table table tr td .line-green {
+  height: 4px;
+  width: 50px;
+  background-color: #34c38f;
+  border-radius: 8px;
+}
+@media screen and (max-width: 1220px) {
+  .middle-cards .mid-card .top-cities-table table tr td .line-green {
+    width: 200px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .middle-cards .mid-card .top-cities-table table tr td .line-green {
+    width: 140px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .middle-cards .mid-card .top-cities-table table tr td .line-green {
+    width: 60px !important;
+  }
+}
+@media screen and (max-width: 290px) {
+  .middle-cards .mid-card .top-cities-table table tr td .line-green {
+    width: 30px !important;
+  }
+}
+.middle-cards .mid-card .top-cities-table table tr td .line-blue {
+  height: 4px;
+  width: 60px;
+  background-color: #556ee6;
+  border-radius: 8px;
+}
+@media screen and (max-width: 1220px) {
+  .middle-cards .mid-card .top-cities-table table tr td .line-blue {
+    width: 240px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .middle-cards .mid-card .top-cities-table table tr td .line-blue {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .middle-cards .mid-card .top-cities-table table tr td .line-blue {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 290px) {
+  .middle-cards .mid-card .top-cities-table table tr td .line-blue {
+    width: 60px;
+  }
+}
+.middle-cards .mid-card .top-cities-icon {
+  text-align: center;
+}
+.middle-cards .mid-card .top-cities-icon i {
+  color: #556ee6;
+  font-size: 3.5rem;
+  margin-top: 8px;
+}
+.middle-cards .mid-card .top-cities-icon h3 {
+  color: 495057;
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  margin-bottom: 0;
+}
+.middle-cards .mid-card .top-cities-icon p {
+  color: 495057;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  margin-top: 0;
+}
+.middle-cards .mid-card .vl {
+  position: absolute;
+  top: 100px;
+  left: 26px;
+  border-left: 3px dashed #9f9f9f;
+  height: 67%;
+  opacity: 0.2;
+  z-index: 1;
+}
+.middle-cards .mid-card .list ul {
+  display: block;
+  padding: 0;
+}
+.middle-cards .mid-card .list ul :last-child {
+  justify-content: center;
+}
+.middle-cards .mid-card .list ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  position: relative;
+}
+.middle-cards .mid-card .list ul li .active-h5 {
+  margin-left: 35px;
+}
+.middle-cards .mid-card .list ul li .active-arrow {
+  color: #556ee6;
+  margin: 0 20px 0;
+  position: absolute;
+  animation: active-arrow 0.8s infinite ease-out;
+  animation-direction: alternate;
+}
+.middle-cards .mid-card .list ul li button {
+  padding: 5px 8px;
+  background-color: #556ee6;
+  border: none;
+  border-radius: 2px;
+}
+.middle-cards .mid-card .list ul li button a {
+  text-decoration: none;
+  color: white;
+}
+.middle-cards .mid-card .list ul li .arrow {
+  margin: 0 20px 0;
+  z-index: 2;
+}
+.middle-cards .mid-card .list ul li .blue-arrow {
+  color: #556ee6;
+  margin: 0 15px 0 5px;
+}
+.middle-cards .mid-card .list ul li p {
+  color: 495057;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  width: 80%;
+}
+.middle-cards .mid-card .list ul li p a {
+  text-decoration: none;
+}
+.middle-cards .mid-card .list ul li h5 {
+  width: 80px;
+  font-size: 13px;
+  color: 495057;
+  font-family: "Poppins", sans-serif;
+}
+.middle-cards .mid-card h2 {
+  color: 495057;
+  font-size: 15px;
+  margin: 0 0 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: #74788d;
+  background-color: #f2f2f5;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  height: 60px;
+  align-items: center;
+  margin: 10px 0;
+  white-space: nowrap;
+}
+.footer .foot {
+  padding: 0 15px;
+}
+
+@keyframes active-arrow {
+  0% {
+    left: 0px;
+  }
+  25% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    left: 22px;
+    opacity: 0;
+  }
+}
+.table-card {
+  border-radius: 7px;
+  background-color: white;
+  height: auto;
+  width: auto;
+  margin: 10px 0;
+  overflow-x: scroll;
+}
+.table-card .table-padding {
+  padding: 20px;
+}
+.table-card .table-padding table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table-card .table-padding table .table-head {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #eff2f7;
+  border-top: 1px solid #eff2f7;
+}
+.table-card .table-padding table tr {
+  height: 40px;
+  border-bottom: 1px solid #eff2f7;
+  border-top: 1px solid #eff2f7;
+}
+.table-card .table-padding table tr td {
+  padding: 14px 20px;
+  white-space: nowrap;
+}
+.table-card .table-padding table tr td button {
+  border-radius: 30px;
+  background-color: #556ee6;
+  border: none;
+  color: white;
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  padding: 4px;
+}
+.table-card .table-padding table tr .method {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: 495057;
+}
+.table-card .table-padding table tr .refund {
+  width: auto;
+}
+.table-card .table-padding table tr .refund span {
+  color: #f1b44c;
+  background-color: rgba(241, 180, 76, 0.18);
+  border-radius: 10rem;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  padding: 2px 8px;
+}
+.table-card .table-padding table tr .chargeback {
+  width: auto;
+}
+.table-card .table-padding table tr .chargeback span {
+  color: #f46a6a;
+  background-color: rgba(244, 106, 106, 0.18);
+  border-radius: 10rem;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  padding: 2px 8px;
+}
+.table-card .table-padding table tr .status {
+  width: auto;
+}
+.table-card .table-padding table tr .status span {
+  color: #34c38f;
+  background-color: rgba(52, 195, 143, 0.18);
+  border-radius: 10rem;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  padding: 2px 8px;
+}
+.table-card .table-padding table tr .three-in-one {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: 495057;
+}
+.table-card .table-padding table tr .ID {
+  color: 495057;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+.table-card .table-padding table tr .ID:hover {
+  cursor: pointer;
+}
+.table-card .table-padding table tr th {
+  padding: 0 20px;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: 495057;
+  white-space: nowrap;
+}
+.table-card .table-padding header h4 {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: 495057;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,104 @@
+.table-card{
+  border-radius: 7px;
+  background-color: white;
+  height: auto;
+  width: auto;
+  margin: 10px 0;
+  overflow-x: scroll;
+  .table-padding{
+    padding: 20px;
+    table{
+border-collapse: collapse;
+      width: 100%;
+      .table-head{
+        background-color: #f8f9fa;
+        border-bottom:1px solid #eff2f7;
+        border-top:1px solid #eff2f7;
+      }
+      tr{
+        height: 40px;
+        border-bottom:1px solid #eff2f7;
+        border-top:1px solid #eff2f7;
+        td{
+          padding: 14px 20px;
+          white-space: nowrap;
+          button{
+            border-radius: 30px;
+            background-color: $icon-bg-color;
+            border: none;
+            color: white;
+            font-size: 11px;
+            font-family: $font-family;
+            padding: 4px;
+          }
+        }
+        .method{
+          font-size: $main-content-p-font-size;
+          font-family: $font-family;
+          color: $dashboard-color;
+        }
+        .refund{
+          width: auto;
+          span{
+            color: #f1b44c;
+            background-color: rgba(241,180,76,.18);
+            border-radius: 10rem;
+            font-size: 12px;
+            font-family: $font-family;
+            padding: 2px 8px;
+          }
+        }
+        .chargeback{
+          width: auto;
+          span{
+            color: #f46a6a;
+            background-color: rgba(244,106,106,.18);
+            border-radius: 10rem;
+            font-size: 12px;
+            font-family: $font-family;
+            padding: 2px 8px;
+          }
+        }
+        .status{
+          width: auto;
+          span{
+            color: #34c38f;
+            background-color: rgba(52,195,143,.18);
+            border-radius: 10rem;
+            font-size: 12px;
+            font-family: $font-family;
+            padding: 2px 8px;
+          }
+        }
+        .three-in-one{
+          font-size: $main-content-p-font-size;
+          font-family: $font-family;
+          color: $dashboard-color;
+        }
+        .ID{
+          color: $dashboard-color;
+          font-family: $font-family;
+          font-weight: 600;
+          font-size: $main-content-p-font-size;
+          &:hover{
+            cursor: pointer;
+          }
+        }
+        th{
+          padding: 0 20px;
+          font-size: $main-content-p-font-size;
+          font-family: $font-family;
+          color: $dashboard-color;
+          white-space: nowrap;
+        }
+      }
+    }
+    header{
+      h4{
+        font-size: $font-size-15;
+        font-family: $font-family;
+        color: $dashboard-color;
+      }
+    }
+  }
+}

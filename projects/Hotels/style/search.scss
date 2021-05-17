@@ -1,0 +1,173 @@
+.search-background{
+  background-image: url("../style/img/hotel-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  @media screen and (max-width: 500px){
+    height: fit-content;
+  }
+  .search-padding{
+    margin: 0 auto;
+    width: 50%;
+    @media screen and (max-width: 500px){
+      width: 100%;
+    }
+    .search-box{
+      width: 100%;
+      i{
+        position: relative;
+        right: 20px;
+        float: right;
+        bottom: -33px;
+        z-index: 2;
+        color: blue;
+        text-shadow: darkgreen 1px 1px;
+        font-size: 1.2rem;
+      }
+      input{
+        width: 100%;
+        padding: 10px;
+        border-radius: 30px;
+        font-size: 1.3rem;
+        outline: none;
+        position: relative;
+        background: linear-gradient(darkgreen, #363D66);
+        color: white;
+        text-shadow: blue 1px, 1px;
+      }
+    }
+    .detailed-search{
+      background: rgba(0, 100, 0, 0.8);
+      border-radius: 8px;
+      margin: 0 auto;
+      width: 80%;
+      @media screen and (max-width: 500px){
+        width: 100%;
+      }
+      select{
+        padding: 10px 20px;
+        margin: 0 5px;
+        border-radius: 20px;
+        outline: none;
+        @media screen and (max-width: 500px){
+          margin: 20px;
+        }
+      }
+      .select-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        @media screen and (max-width: 1130px){
+          display: grid;
+          margin: 0 20px;
+          padding: 0!important;
+        }
+        .choose-field{
+          display: inline-grid;
+          text-align: center;
+        }
+        label{
+          color: white;
+          text-shadow: green 1px 1px;
+          @media screen and (max-width: 1130px) {
+            margin: 0 auto;
+          }
+        }
+      }
+      .select-bot{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        @media screen and (max-width: 1050px){
+          display: grid;
+          padding: 0!important;
+        }
+        .choose-field{
+          display: inline-grid;
+          text-align: center;
+        }
+        label{
+          color: white;
+          text-shadow: green 1px 1px;
+          @media screen and (max-width: 1050px) {
+            margin: 0 auto;
+          }
+        }
+      }
+      .checkbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        @media screen and (max-width: 920px){
+          flex-wrap: wrap;
+        }
+        label{
+          color: white;
+          text-shadow: green 1px 1px;
+        }
+        input{
+          margin: 0 10px;
+        }
+      }
+      h3{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        opacity: 0.8;
+        color: white;
+        text-shadow: blue 1px 1px;
+      }
+    }
+  }
+  .search-results{
+    .result-padding{
+      display: flex;
+      margin: 0 auto;
+      padding: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      .result-card{
+        background: rgba(0, 100, 0, 0.8);
+        border-radius: 8px;
+        a{
+          text-decoration: none;
+          span{
+            position: relative;
+
+          }
+          .card-padding{
+            padding: 10px;
+            img:hover {
+              opacity: 0.8;
+            }
+
+            p{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: white;
+              text-shadow: green 1px 1px;
+            }
+            h3{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 10px auto;
+              color: white;
+              text-shadow: blue 1px 1px;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}

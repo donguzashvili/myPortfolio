@@ -1,0 +1,76 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Quizz</title>
+</head>
+<body>
+<div class="main-content">
+    <div class="info">
+        <h1>Quizz</h1>
+        <form>
+            <h2 id="greet-container"></h2>
+            <input type="text" placeholder="Name" id="userName" class="user-input">
+            <select name="category" id="category">
+                <option value="">Any Category</option>
+                <option value="9">General Knowledge</option>
+                <option value="10">Entertainment: Books</option>
+                <option value="11">Entertainment: Movie</option>
+                <option value="12">Entertainment: Music</option>
+                <option value="13">Entertainment: Musicals & Theatre</option>
+                <option value="14">Entertainment: Television</option>
+                <option value="15">Entertainment: Video Games</option>
+                <option value="16">Entertainment: Board Games</option>
+                <option value="17">Science & Nature</option>
+                <option value="18">Science: Computers</option>
+                <option value="19">Science: Mathematics</option>
+                <option value="20">Mythology</option>
+                <option value="21">Sports</option>
+                <option value="22">Geography</option>
+                <option value="23">History</option>
+                <option value="24">Politics</option>
+                <option value="25">Art</option>
+                <option value="26">Celebrities</option>
+                <option value="27">Animals</option>
+                <option value="28">Vehicles</option>
+                <option value="29">Entertainment: Comics</option>
+                <option value="30">Science: Gadgets</option>
+                <option value="31">Entertainment: Japanese Anime & Manga</option>
+                <option value="32">Entertainment: Cartoon & Animes</option>
+            </select>
+            <select name="difficulty" id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+                <input type="submit" id="user-btn" class="user-input">
+            </select>
+        </form>
+
+    </div>
+<div class="center-box" id="box">
+    <div class="questions-box">
+        <h1 id="title">Question 1</h1>
+        <div id="finished-result">
+            <button id="retry">Try Again</button>
+        </div>
+        <div id="questions-answers">
+            <h5 id="question"></h5>
+            <div id="answers" class="answers">
+                <button class="answer" id="answer1" value="1"></button>
+                <button class="answer" id="answer2" value="2"></button>
+                <button class="answer" id="answer3" value="3"></button>
+                <button class="answer" id="answer4" value="4"></button>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+<script src="app.js">
+
+</script>
+</body>
+</html>

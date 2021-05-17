@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "hotel",
+      "password": "hotel",
+      "mail": "example@gmail.com",
+      "company": "example",
+      "address": "example str"
+    },
+    {
+      "id": 2,
+      "name": "guest",
+      "password": "guest",
+      "mail": "example@gmail.com",
+      "company": "example",
+      "address": "example str"
+    },
+    {
+      "name": "shota",
+      "surName": "donguzashvili",
+      "dbMail": "shota.nope@gmail.com",
+      "company": "shota inc",
+      "address": "Robakidze",
+      "password": "shota1997",
+      "id": 4
+    },
+    {
+      "name": "ramzes",
+      "surName": "dwahoih",
+      "dbMail": "dwhaohjdwa@gmail.com",
+      "company": "dhaoihdw",
+      "address": "dwahoihodwa",
+      "password": "1997",
+      "id": 5
+    },
+    {
+      "name": "",
+      "surName": "",
+      "dbMail": "",
+      "company": "",
+      "address": "",
+      "pswrd": "",
+      "id": 6
+    }
+  ]
+}

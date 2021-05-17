@@ -1,0 +1,18 @@
+.place-header{
+  background-image: url("../style/img/racha/main-racha.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 471px;
+  width: auto;
+}
+.place-body{
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  img{
+    width: 100%;
+    margin: 20px 0;
+  }
+}

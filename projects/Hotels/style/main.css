@@ -1,0 +1,870 @@
+.place-header {
+  background-image: url("../style/img/racha/main-racha.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 471px;
+  width: auto;
+}
+
+.place-body h1 {
+  display: flex;
+  justify-content: center;
+}
+.place-body img {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.background-img {
+  background-image: url("../style/img/holiday inn/main.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+details-footer {
+  display: flex !important;
+  justify-content: space-between;
+  padding: 20px;
+  background: #006400;
+}
+details-footer p {
+  color: white;
+  text-shadow: blue 1px 2px;
+  font-size: 2rem;
+}
+
+.main-info button {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  margin: 20px auto;
+  color: white;
+  text-shadow: green 1px 2px;
+  background: #363D66;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+.main-info .slider .carousel-inner {
+  height: 75%;
+}
+.main-info .slider .carousel-inner .item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.main-info .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-info .info p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px;
+}
+.main-info .star {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+.main-info h1 {
+  display: flex;
+  justify-content: center;
+}
+.main-info .company-history {
+  padding: 20px;
+}
+.main-info form select {
+  padding: 20px;
+  width: 100%;
+  background: #363D66;
+  border: none;
+  outline: none;
+  color: white;
+  text-shadow: green 1px 1px;
+  font-size: 1.5rem;
+}
+
+.search-background {
+  background-image: url("../style/img/hotel-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 500px) {
+  .search-background {
+    height: fit-content;
+  }
+}
+.search-background .search-padding {
+  margin: 0 auto;
+  width: 50%;
+}
+@media screen and (max-width: 500px) {
+  .search-background .search-padding {
+    width: 100%;
+  }
+}
+.search-background .search-padding .search-box {
+  width: 100%;
+}
+.search-background .search-padding .search-box i {
+  position: relative;
+  right: 20px;
+  float: right;
+  bottom: -33px;
+  z-index: 2;
+  color: blue;
+  text-shadow: darkgreen 1px 1px;
+  font-size: 1.2rem;
+}
+.search-background .search-padding .search-box input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  outline: none;
+  position: relative;
+  background: linear-gradient(darkgreen, #363D66);
+  color: white;
+  text-shadow: blue 1px, 1px;
+}
+.search-background .search-padding .detailed-search {
+  background: rgba(0, 100, 0, 0.8);
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 80%;
+}
+@media screen and (max-width: 500px) {
+  .search-background .search-padding .detailed-search {
+    width: 100%;
+  }
+}
+.search-background .search-padding .detailed-search select {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 20px;
+  outline: none;
+}
+@media screen and (max-width: 500px) {
+  .search-background .search-padding .detailed-search select {
+    margin: 20px;
+  }
+}
+.search-background .search-padding .detailed-search .select-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+@media screen and (max-width: 1130px) {
+  .search-background .search-padding .detailed-search .select-top {
+    display: grid;
+    margin: 0 20px;
+    padding: 0 !important;
+  }
+}
+.search-background .search-padding .detailed-search .select-top .choose-field {
+  display: inline-grid;
+  text-align: center;
+}
+.search-background .search-padding .detailed-search .select-top label {
+  color: white;
+  text-shadow: green 1px 1px;
+}
+@media screen and (max-width: 1130px) {
+  .search-background .search-padding .detailed-search .select-top label {
+    margin: 0 auto;
+  }
+}
+.search-background .search-padding .detailed-search .select-bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+@media screen and (max-width: 1050px) {
+  .search-background .search-padding .detailed-search .select-bot {
+    display: grid;
+    padding: 0 !important;
+  }
+}
+.search-background .search-padding .detailed-search .select-bot .choose-field {
+  display: inline-grid;
+  text-align: center;
+}
+.search-background .search-padding .detailed-search .select-bot label {
+  color: white;
+  text-shadow: green 1px 1px;
+}
+@media screen and (max-width: 1050px) {
+  .search-background .search-padding .detailed-search .select-bot label {
+    margin: 0 auto;
+  }
+}
+.search-background .search-padding .detailed-search .checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+@media screen and (max-width: 920px) {
+  .search-background .search-padding .detailed-search .checkbox {
+    flex-wrap: wrap;
+  }
+}
+.search-background .search-padding .detailed-search .checkbox label {
+  color: white;
+  text-shadow: green 1px 1px;
+}
+.search-background .search-padding .detailed-search .checkbox input {
+  margin: 0 10px;
+}
+.search-background .search-padding .detailed-search h3 {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  opacity: 0.8;
+  color: white;
+  text-shadow: blue 1px 1px;
+}
+.search-background .search-results .result-padding {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.search-background .search-results .result-padding .result-card {
+  background: rgba(0, 100, 0, 0.8);
+  border-radius: 8px;
+}
+.search-background .search-results .result-padding .result-card a {
+  text-decoration: none;
+}
+.search-background .search-results .result-padding .result-card a span {
+  position: relative;
+}
+.search-background .search-results .result-padding .result-card a .card-padding {
+  padding: 10px;
+}
+.search-background .search-results .result-padding .result-card a .card-padding img:hover {
+  opacity: 0.8;
+}
+.search-background .search-results .result-padding .result-card a .card-padding p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: green 1px 1px;
+}
+.search-background .search-results .result-padding .result-card a .card-padding h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  color: white;
+  text-shadow: blue 1px 1px;
+}
+
+.background {
+  background-image: url("../style/img/login background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background .centered {
+  background-color: rgba(0, 100, 0, 0.8);
+  margin: 0 auto;
+  border-radius: 8px;
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .background .centered {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .background .centered {
+    width: 100%;
+  }
+}
+.background .centered .padding {
+  padding: 20px;
+}
+.background .centered .padding .main-content #mail-err {
+  color: red;
+  display: none;
+}
+.background .centered .padding .main-content .mail-error {
+  display: block !important;
+  margin: 0;
+}
+.background .centered .padding .main-content .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.background .centered .padding .main-content .name .firstName {
+  display: block;
+  width: 100%;
+}
+.background .centered .padding .main-content .name .lastName {
+  display: block;
+  width: 100%;
+  margin: 0 0 0 20px;
+}
+.background .centered .padding .main-content h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: green 2px 2px;
+  font-size: 1.5rem;
+}
+.background .centered .padding .main-content button {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin: 20px auto 10px auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #363D66;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+.background .centered .padding .main-content input {
+  display: block;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin: 10px auto;
+}
+.background .centered .padding .main-content label {
+  display: block;
+  color: white;
+  text-shadow: blue 1px 1px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+* ::-webkit-scrollbar {
+  width: 7px;
+  height: 2px;
+}
+* ::-webkit-scrollbar-track {
+  background: #888;
+}
+* ::-webkit-scrollbar-thumb {
+  background: white;
+}
+* ::-webkit-scrollbar-thumb:hover {
+  background: green;
+}
+
+.main-layer {
+  overflow: hidden;
+}
+.main-layer #user {
+  display: none;
+}
+.main-layer .copyright {
+  display: flex;
+  justify-content: space-between;
+  background: #363D66;
+  white-space: nowrap;
+  width: 100%;
+}
+@media screen and (max-width: 400px) {
+  .main-layer .copyright {
+    font-size: 0.8rem;
+    display: inline-block;
+  }
+}
+.main-layer .copyright .my-name {
+  padding: 0 20px;
+  cursor: default;
+}
+.main-layer .copyright .copyright-reserved {
+  padding: 0 20px;
+  cursor: default;
+}
+.main-layer footer {
+  display: flex;
+  background: #006400;
+  justify-content: space-between;
+}
+@media screen and (max-width: 400px) {
+  .main-layer footer {
+    display: block;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-layer footer .office {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-layer footer .our-guides {
+    display: none;
+  }
+}
+.main-layer footer .footer-box-padding {
+  padding: 20px;
+}
+.main-layer footer .footer-box-padding h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  color: white;
+  text-shadow: blue 1px 1px;
+}
+.main-layer footer .footer-box-padding p {
+  cursor: default;
+  color: white;
+  text-shadow: green 1px 1px;
+}
+.main-layer .social-box {
+  position: fixed;
+  right: 0;
+  top: 50%;
+}
+.main-layer .social-box .inner-social {
+  display: flex;
+  justify-content: center;
+}
+.main-layer .social-box .inner-social a {
+  text-decoration: none;
+}
+.main-layer .social-box .inner-social a i {
+  display: block;
+  font-size: 1.5rem;
+  margin: 10px;
+  color: white;
+  text-shadow: green 1px 1px;
+}
+.main-layer .lastest-news .news-box {
+  width: 100%;
+  padding: 20px 0 20px 20px;
+  background-image: url("../style/img/canyon.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: auto;
+}
+.main-layer .lastest-news .news-box .news-grid {
+  display: inline-flex;
+}
+.main-layer .lastest-news .news-box .news-grid .news-card {
+  display: flex;
+  justify-content: center;
+}
+.main-layer .lastest-news .news-box .news-grid .news-card a {
+  text-decoration: none;
+}
+.main-layer .lastest-news .news-box .news-grid .news-card a .news-card-padding {
+  padding: 20px;
+  background-color: rgba(0, 100, 0, 0.8);
+  margin: 0 5px;
+  min-width: 233px;
+  border-radius: 8px;
+}
+.main-layer .lastest-news .news-box .news-grid .news-card a .news-card-padding h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: blue 1px 1px;
+}
+.main-layer .lastest-news .news-box .news-grid .news-card a .news-card-padding p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: green 1px 1px;
+}
+.main-layer .lastest-news .news-box .news-grid .news-card a .news-card-padding div {
+  width: 100%;
+}
+.main-layer .lastest-news .news-box .news-grid .news-card a .news-card-padding div img {
+  height: 180px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-layer .lastest-news h3 {
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  background: #006400;
+  font-size: 2rem;
+  color: white;
+  text-shadow: blue 1px 1px;
+  white-space: nowrap;
+}
+@media screen and (max-width: 600px) {
+  .main-layer .lastest-news h3 {
+    font-size: 1rem;
+  }
+}
+.main-layer .top-places .places-box {
+  width: 100%;
+  padding: 20px 0 20px 20px;
+  background-image: url("../style/img/svaneti.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-x: auto;
+}
+.main-layer .top-places .places-box .place-grid {
+  display: inline-flex;
+  white-space: nowrap;
+}
+.main-layer .top-places .places-box .place-grid .place-card {
+  display: flex;
+  justify-content: center;
+}
+.main-layer .top-places .places-box .place-grid .place-card a {
+  text-decoration: none;
+}
+.main-layer .top-places .places-box .place-grid .place-card a .place-card-padding {
+  padding: 20px;
+  background-color: rgba(0, 100, 0, 0.8);
+  margin: 0 5px;
+  min-width: 233px;
+  border-radius: 8px;
+  max-width: 250px;
+}
+.main-layer .top-places .places-box .place-grid .place-card a .place-card-padding :hover {
+  width: 500px;
+}
+.main-layer .top-places .places-box .place-grid .place-card a .place-card-padding div {
+  width: 100%;
+}
+.main-layer .top-places .places-box .place-grid .place-card a .place-card-padding div img {
+  height: 180px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-layer .top-places .places-box .place-grid .place-card a .place-card-padding h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: blue 1px 1px;
+}
+.main-layer .top-places .places-box .place-grid .place-card a .place-card-padding p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: green 1px 1px;
+}
+.main-layer .top-places h3 {
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #006400;
+  margin: 0;
+  padding: 20px;
+  font-size: 2rem;
+  color: white;
+  text-shadow: blue 1px 1px;
+}
+@media screen and (max-width: 600px) {
+  .main-layer .top-places h3 {
+    font-size: 1rem;
+  }
+}
+.main-layer .top-hotels h3 {
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #006400;
+  margin: 0;
+  padding: 20px;
+  font-size: 2rem;
+  color: white;
+  text-shadow: blue 1px 1px;
+}
+@media screen and (max-width: 600px) {
+  .main-layer .top-hotels h3 {
+    font-size: 1rem;
+  }
+}
+.main-layer .top-hotels .hotels-box {
+  background-image: url("../style/img/batumi.webp");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px 0 20px 20px;
+  overflow-x: auto;
+}
+.main-layer .top-hotels .hotels-box .hotels-grid {
+  display: inline-flex;
+  white-space: nowrap;
+}
+.main-layer .top-hotels .hotels-box .hotels-grid .hotel-card {
+  display: flex;
+  justify-content: center;
+}
+.main-layer .top-hotels .hotels-box .hotels-grid .hotel-card a {
+  text-decoration: none;
+}
+.main-layer .top-hotels .hotels-box .hotels-grid .hotel-card a .card-padding {
+  padding: 20px;
+  background-color: rgba(0, 100, 0, 0.8);
+  margin: 0 5px;
+  min-width: 233px;
+  border-radius: 8px;
+  max-width: 250px;
+}
+.main-layer .top-hotels .hotels-box .hotels-grid .hotel-card a .card-padding div {
+  width: 100%;
+}
+.main-layer .top-hotels .hotels-box .hotels-grid .hotel-card a .card-padding div img {
+  width: 100%;
+  height: 200px;
+}
+.main-layer .top-hotels .hotels-box .hotels-grid .hotel-card a .card-padding p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: green 1px 1px;
+  cursor: default;
+}
+.main-layer .top-hotels .hotels-box .hotels-grid .hotel-card a .card-padding h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: blue 1px 1px;
+  cursor: default;
+}
+.main-layer .main-content {
+  background-image: url("../style/img/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-layer .main-content .inner-content-padding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-layer .main-content .inner-content-padding .inner-content .moving-content {
+  background-color: rgba(0, 100, 0, 0.7);
+  height: 50px;
+  width: 300px;
+  border-radius: 2px;
+  display: flex;
+}
+.main-layer .main-content .inner-content-padding .inner-content .moving-content .moving-box {
+  background-color: transparent;
+  border-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 81%;
+  align-items: center;
+}
+.main-layer .main-content .inner-content-padding .inner-content .moving-content .moving-box p {
+  cursor: default;
+  color: #fff;
+  white-space: nowrap;
+  margin: 0 auto;
+  overflow: hidden;
+  border-right: 0.15em solid white;
+  letter-spacing: 0.1em;
+  font-size: 1.2rem;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+  display: flex;
+}
+.main-layer .main-content .inner-content-padding .inner-content .speech {
+  display: flex;
+  justify-content: center;
+  cursor: default;
+}
+.main-layer .main-content .inner-content-padding .inner-content .speech p {
+  font-size: 1rem;
+  text-shadow: green 1px 1px;
+}
+.main-layer .main-content .inner-content-padding .inner-content .speech p span {
+  color: #363D66;
+  font-size: 1.2rem;
+}
+.main-layer .secondary-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.main-layer .secondary-nav .helper-tools {
+  display: flex;
+}
+.main-layer .secondary-nav .helper-tools .find {
+  background: darkred;
+  border-radius: 35%;
+  color: white;
+  text-shadow: blue 1px 1px;
+}
+.main-layer .secondary-nav .helper-tools a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.main-layer .secondary-nav .helper-tools a p {
+  margin: 0 10px;
+  white-space: nowrap;
+  text-shadow: lightblue 1px 1px;
+}
+.main-layer .secondary-nav .helper-tools .language {
+  display: flex;
+  align-items: center;
+}
+.main-layer .secondary-nav .helper-tools .language select option img {
+  height: 10px;
+  width: 10px;
+  object-fit: cover;
+}
+.main-layer .secondary-nav .helper-tools .language img {
+  height: 15px;
+  width: 15px;
+  object-fit: cover;
+}
+.main-layer .secondary-nav .logo-img {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.main-layer .secondary-nav .logo-img img {
+  height: 40%;
+  width: 90%;
+  object-fit: cover;
+}
+.main-layer nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #363D66;
+  color: white;
+  text-shadow: blue 1px 1px;
+  padding: 0 20px;
+}
+@media screen and (min-width: 700px) {
+  .main-layer nav {
+    justify-content: space-between;
+  }
+}
+.main-layer nav .logo {
+  background-color: darkred;
+  border-radius: 30%;
+  padding: 0 20px;
+  display: flex;
+}
+.main-layer nav .logo h4 {
+  cursor: default;
+  display: flex;
+  align-items: center;
+}
+.main-layer nav .contact {
+  display: block;
+}
+@media screen and (max-width: 700px) {
+  .main-layer nav .contact {
+    display: none;
+  }
+}
+.main-layer nav .contact .mail {
+  display: flex;
+  align-items: center;
+}
+.main-layer nav .contact .mail a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+.main-layer nav .contact .phone {
+  display: flex;
+  align-items: center;
+}
+.main-layer nav .contact i {
+  margin: 5px;
+}
+.main-layer nav .contact p {
+  margin: 5px;
+}
+.main-layer nav .login {
+  display: flex;
+  align-items: center;
+}
+.main-layer nav .login a {
+  text-decoration: none;
+  display: flex;
+  color: white;
+}
+.main-layer nav .login i {
+  margin: 5px;
+}
+.main-layer nav .login p {
+  margin: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */

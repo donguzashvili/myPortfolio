@@ -1,0 +1,765 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/boxicons.css">
+    <link rel="stylesheet" href="style/boxicons.min.css">
+    <link rel='stylesheet' href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dashboard | Skote - Responsive Bootstrap 4 Admin Dashboard</title>
+</head>
+<body>
+<nav>
+    <!--     top navigation -->
+    <div class="top-nav">
+        <!--        top navigation things-->
+        <div class="nav-form">
+
+            <!--            top-left side of nav-->
+            <ul>
+                <!--        brand logo-->
+                <div class="logo-nav">
+                    <div class="logo">
+                        <img src="./style/img/logo-light.png" alt="">
+                    </div>
+                    <div class="logo2" id="logo-2">
+                        <img src="./style/img/logo-light.svg" alt="">
+                    </div>
+                </div>
+                <li id="responsive-menu">
+                    <i class="fa fa-fw fa-bars"></i>
+                </li>
+                <li class="media_query">
+                    <form>
+                        <input type="text" placeholder="Search...">
+                        <i class="bx search-icon bx-search-alt"></i>
+                    </form>
+                </li>
+                <li class="media_query">
+                    <button class="mega-menu"><p>Mega Menu</p><span class="material-icons">
+expand_more
+</span></button>
+                </li>
+            </ul>
+            <!--            top-right side of nav-->
+            <ul>
+                <li>
+                    <img src="./style/img/us.jpg" alt="">
+                </li>
+                <li class="media_query">
+                    <i class="bx bx-customize"></i>
+                </li>
+                <li class="media_query">
+                    <i class="bx bx-fullscreen"></i>
+                </li>
+                <li>
+                    <i class="bx bx-bell bx-tada"></i>
+                    <span class="notification">3</span>
+                </li>
+                <li>
+                    <button class="henry">
+                        <img src="./style/img/avatar-1.jpg"
+                             alt="">
+                        <p>Henry </p><span class="material-icons">
+expand_more
+</span>
+                    </button>
+                </li>
+                <li>
+                    <i class="bx bx-cog bx-spin"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--    top navigation ends here-->
+    <!--    left navigation starts here-->
+    <div class="left-nav" id="responsive-nav">
+        <ul>
+            <li class="nav-title">MENU</li>
+            <li class="dashboard"><i class="bx bx-home-circle"></i>
+                Dashboards
+                <span class="zero-three">03</span>
+                <ul class="dropdown-dash">
+                    <li>Default</li>
+                    <li>Sass</li>
+                    <li>Crypto</li>
+                    <li>Blog</li>
+                </ul>
+            </li>
+            <li><i class="bx bx-layout"></i>
+                Layouts
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Vertical</li>
+                    <li>Horizontal</li>
+                </ul>
+            </li>
+            <li class="nav-title">APPS</li>
+            <li class="li-no-padding"><i class="bx bx-calendar"></i>
+                Calendar
+            <li class="li-no-padding"><i class="bx bx-calendar"></i>
+                Chat
+                <span class="new">New</span></li>
+            <li><i class="bx bx-store"></i>
+                Ecommerce
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Products</li>
+                    <li>Order</li>
+                    <li>Cart</li>
+                    <li>Shops</li>
+                </ul>
+            </li>
+            <li><i class="bx bx-bitcoin"></i>
+                Crypto
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Wallet</li>
+                    <li>Buy/Sell</li>
+                    <li>Exchange</li>
+                    <li>ICO Landing</li>
+                </ul>
+            </li>
+            <li><i class="bx bx-envelope"></i>
+                Email
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Inbox</li>
+                    <li>Read Email</li>
+                    <li>Templates</li>
+                </ul>
+            </li>
+            <li><i class="bx bx-receipt"></i>
+                Invoices
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Invoice List</li>
+                    <li>Invoice Details</li>
+                </ul>
+            </li>
+            <li><i class="bx bx-briefcase-alt-2"></i>
+                Projects
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Project List</li>
+                    <li>Project Grid</li>
+                    <li>Project Overview</li>
+                    <li>Create New</li>
+                </ul>
+            </li>
+            <li><i class="bx bx-task"></i>
+                Tasks
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Task Lists</li>
+                    <li>Create Tasks</li>
+                </ul>
+            </li>
+            <li><i class="bx bxs-user-detail"></i>
+                Contacts
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>User List</li>
+                    <li>User Grid</li>
+                    <li>Profile</li>
+                </ul>
+            </li>
+            <li class="nav-title">PAGES</li>
+            <li><i class="bx bx-user-circle"></i>
+                Authentication
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Login</li>
+                    <li>Register</li>
+                    <li>Recover Password</li>
+                    <li>Email Verification</li>
+                </ul>
+            </li>
+            <li><i class="bx bx-file"></i>
+                Utility
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Starter Page</li>
+                    <li>Maintenance</li>
+                    <li>Coming Soon</li>
+                    <li>Timeline</li>
+                </ul>
+            </li>
+            <li class="nav-title">COMPONENTS</li>
+            <li><i class="bx bx-tone"></i>
+                UI Elements
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Alerts</li>
+                    <li>Buttons</li>
+                    <li>Cards</li>
+                    <li>Carousel</li>
+                </ul>
+            </li>
+            <li><i class="bx bxs-eraser"></i>
+                Forms
+                <span class="ten">10</span>
+                <ul class="dropdown-dash">
+                    <li>Form Elements</li>
+                    <li>Form Layouts</li>
+                    <li>Form Editors</li>
+                    <li>Form Masks</li>
+                </ul>
+            </li>
+            <li><i class="bx bx-list-ul"></i>
+                Tables
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Basic Tables</li>
+                    <li>Data Tables</li>
+                    <li>Responsive Table</li>
+                    <li>Editable Table</li>
+                </ul>
+            </li>
+            <li><i class="bx bxs-bar-chart-alt-2"></i>
+                Charts
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Apex Charts</li>
+                    <li>E Charts</li>
+                    <li>Flot Chart</li>
+                    <li>Sparkline Chart</li>
+                </ul>
+            </li>
+            <li><i class="bx bx-aperture"></i>
+                Icons
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Boxicons</li>
+                    <li>Material Design</li>
+                    <li>Font Awesome</li>
+                </ul>
+            </li>
+            <li><i class="bx bx-aperture"></i>
+                Maps
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Google Maps</li>
+                    <li>Vector Maps</li>
+                    <li>Leaflet Maps</li>
+                </ul>
+            </li>
+            <li><i class="bx bx-map"></i>
+                Multi Level
+                <span class="material-icons">
+expand_more
+</span>
+                <ul class="dropdown-dash">
+                    <li>Level 1.1</li>
+                    <li>Level 1.2</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--    both navbars ends here-->
+<!--main content starts here-->
+<section class="main-content">
+    <div class="main-content-padding">
+        <div class="card-content">
+            <header>
+
+                <h2>Dashboard</h2>
+                <p>Dashboards / Dashboard</p>
+
+            </header>
+        </div>
+        <div class="main-wrap">
+            <div class="main-cards">
+                <div class="left-side-cards">
+                    <div class="left-top-card">
+                        <div class="top-top">
+                            <div class="top-side">
+                                <div>
+                                    <h2 id="solved">Welcome Back !</h2>
+                                    <p>Skote Dashboard</p>
+                                </div>
+                                <span>
+                    <img src="./style/img/profile-img.png" alt="">
+                </span>
+                            </div>
+                            <div class="bot-side">
+                                <div class="bot-avatar-side">
+                                    <div class="left-side">
+                                        <div class="avatar-side">
+                                            <img src="./style/img/avatar-1.jpg" alt="">
+                                        </div>
+                                        <div class="description-side">
+                                            <h5>Henry Price</h5>
+                                            <p>UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                    <div class="right-side">
+                                        <div class="project">
+                                            <div class="project-side">
+                                                <h6>125</h6>
+                                                <p>Project</p>
+                                            </div>
+                                            <div class="revenue-side">
+                                                <h6>$1245</h6>
+                                                <p>Revenue</p>
+                                            </div>
+                                        </div>
+                                        <div class="button-side">
+                                            <button>
+                                                <a href="#">View Profile <i class='bx bxs-right-arrow-alt'></i></a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bot-avatar-description"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-bot-card">
+                        <div class="left-bot-card-padding">
+                            <header>
+                                Monthly Earning
+                            </header>
+                            <div>
+                                <div class="this-month">
+                                    <p>this month</p>
+                                    <h3>$34,252</h3>
+                                    <p><span>
+12%<span class="mdi mdi-arrow-up"></span>
+                            </span>
+                                        From previous period
+                                    </p>
+                                </div>
+                                <div class="statistic">
+                                    <img src="./style/img/Capture.jpg" alt="">
+                                </div>
+                            </div>
+                            <footer>
+                                <button>View More <i class='bx bxs-right-arrow-alt'></i></button>
+                                <p>We craft digital, graphic and dimensional thinking.</p>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side-cards">
+                    <div class="right-top-side">
+                        <div class="card">
+                            <div>
+                                <p>Orders</p>
+                                <h5>1,235</h5>
+                            </div>
+                            <span class="icon-border"><i class="bx bx-copy-alt"></i></span>
+                        </div>
+                        <div class="card">
+                            <div>
+                                <p>Revenue</p>
+                                <h5>$35, 723</h5>
+                            </div>
+                            <span class="icon-border"><i class="bx bx-archive-in"></i></span>
+                        </div>
+                        <div class="card">
+                            <div>
+                                <p>Avarage Price</p>
+                                <h5>$16.2</h5>
+                            </div>
+                            <span class="icon-border"><i class="bx bx-purchase-tag-alt"></i></span>
+                        </div>
+                    </div>
+                    <div class="right-bot-side">
+                        <div class="big-card-body">
+                            <header>
+                                <h3>Email Sent</h3>
+                                <div>
+                                    <a href="#">Week</a>
+                                    <a href="#">Month</a>
+                                    <button><a href="#">Year</a></button>
+                                </div>
+                            </header>
+                            <div class="diagram">
+                                <div class="vertical">
+                                    <div class="numbers">
+                                        <p>100</p>
+                                        <p>80</p>
+                                        <p>60</p>
+                                        <p>40</p>
+                                        <p>20</p>
+                                        <p>0</p>
+
+                                    </div>
+                                    <div class="element-chart">
+                                        <div class="elements first">
+                                            <div class="color green g-1">
+                                                <ul class="hover-effect">
+                                                    <li class="monthes"><p>Jan</p></li>
+                                                    <li class="series">
+                                                        <span></span>
+                                                        <p>Series C: 11</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="color yellow y-1"></div>
+                                            <div class="color blue b-1"></div>
+                                            <div class="color month">Jan</div>
+
+                                        </div>
+                                        <div class="elements second">
+                                            <div class="color green g-2"></div>
+                                            <div class="color yellow y-2"></div>
+                                            <div class="color blue b-2"></div>
+                                            <div class="month">Feb</div>
+                                        </div>
+                                        <div class="elements third">
+                                            <div class="color green g-3"></div>
+                                            <div class="color yellow y-3"></div>
+                                            <div class="color blue b-3"></div>
+                                            <div class="color month">Mar</div>
+                                        </div>
+                                        <div class="elements fourth">
+                                            <div class="color green g-4"></div>
+                                            <div class="color yellow y-4"></div>
+                                            <div class="color blue b-4"></div>
+                                            <div class="month">Apr</div>
+                                        </div>
+                                        <div class="elements fifth">
+                                            <div class="color green g-5"></div>
+                                            <div class="color yellow y-5"></div>
+                                            <div class="color blue b-5"></div>
+                                            <div class="month">May</div>
+                                        </div>
+                                        <div class="elements sixth">
+                                            <div class="color green g-6"></div>
+                                            <div class="color yellow y-6"></div>
+                                            <div class="color blue b-6"></div>
+                                            <div class="month">Jun</div>
+                                        </div>
+                                        <div class="elements seventh">
+                                            <div class="color green g-7"></div>
+                                            <div class="color yellow y-7"></div>
+                                            <div class="color blue b-7"></div>
+                                            <div class="month">Jul</div>
+                                        </div>
+                                        <div class="elements eighth">
+                                            <div class="color green g-8"></div>
+                                            <div class="color yellow y-8"></div>
+                                            <div class="color blue b-8"></div>
+                                            <div class="month">Aug</div>
+                                        </div>
+                                        <div class="elements nineth">
+                                            <div class="color green g-9"></div>
+                                            <div class="color yellow y-9"></div>
+                                            <div class="color blue b-9"></div>
+                                            <div class="month">Sep</div>
+                                        </div>
+                                        <div class="elements tenth">
+                                            <div class="color green g-10"></div>
+                                            <div class="color yellow y-10"></div>
+                                            <div class="color blue b-10"></div>
+                                            <div class="month">Oct</div>
+                                        </div>
+                                        <div class="elements eleventh">
+                                            <div class="color green g-11"></div>
+                                            <div class="color yellow y-11"></div>
+                                            <div class="color blue b-11"></div>
+                                            <div class="month">Nov</div>
+                                        </div>
+                                        <div class="elements twelveth">
+                                            <div class="color green g-12"></div>
+                                            <div class="color yellow y-12"></div>
+                                            <div class="color blue b-12"></div>
+                                            <div class="month">Dec</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <ul class="horizontal">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <footer>
+                                <div class="diagram-descriptions">
+                                    <div class="diagram-box-container">
+                                        <div class="colors blue"></div>
+                                        <p>Series A</p>
+                                    </div>
+                                    <div class="diagram-box-container">
+                                        <div class="colors yellow"></div>
+                                        <p>Series B</p>
+                                    </div>
+                                    <div class="diagram-box-container">
+                                        <div class="colors green"></div>
+                                        <p>Series C</p>
+                                    </div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--        from here starts _main-content-vol2-->
+            <div class="middle-cards">
+                <div class="social-source mid-card">
+                    <h2>Social Source</h2>
+                    <div class="social-mid-text">
+                        <div class="fb-avatar">
+                            <div>
+                                <i class='bx bxl-facebook-circle'></i></div>
+                        </div>
+                        <div class="facebook-mute">
+                            <h4>Facebook - </h4>
+                            <h4 class="mute"> 125 sales</h4>
+                        </div>
+                        <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus
+                            tincidunt.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div class="social-containers">
+                        <div class="social-circle">
+                            <div class="social-move">
+                                <div class="facebook container"><i class='bx bxl-facebook-circle'></i></div>
+                            </div>
+                            <div class="social-descr">
+                                <h3>Facebook</h3>
+                                <p>125 sales</p>
+                            </div>
+                        </div>
+                        <div class="social-circle">
+                            <div class="social-move">
+                                <div class="twitter container"><i class='bx bxl-twitter'></i></div>
+                            </div>
+                            <div class="social-descr">
+                                <h3>Twitter</h3>
+                                <p>112 sales</p>
+                            </div>
+                        </div>
+                        <div class="social-circle">
+                            <div class="social-move">
+                                <div class="instagram container"><i class='bx bxl-instagram-alt'></i></div>
+                            </div>
+                            <div class="social-descr">
+                                <h3>Instagram</h3>
+                                <p>104 sales</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="activity mid-card">
+                    <h2>Activity</h2>
+                    <div class="vl"></div>
+                    <div class="list">
+                        <ul>
+                            <li>
+                                <i class='bx bx-right-arrow-circle arrow'></i>
+                                <h5>22 Nov</h5>
+                                <i class='bx bxs-right-arrow-alt blue-arrow'></i>
+                                <p>Responded to need “Volunteer Activities</p>
+                            </li>
+                            <li>
+                                <i class='bx bx-right-arrow-circle arrow'></i>
+                                <h5>17 Nov</h5>
+                                <i class='bx bxs-right-arrow-alt blue-arrow'></i>
+                                <p>Everyone realizes why a new common language would be desirable... <a href="#">Read
+                                    more</a></p>
+                            </li>
+                            <li>
+                                <i class='bx bxs-right-arrow-circle active-arrow'></i>
+                                <h5 class="active-h5">15 Nov</h5>
+                                <i class='bx bxs-right-arrow-alt blue-arrow'></i>
+                                <p>Joined the group “Boardsmanship Forum”
+                                </p>
+                            </li>
+                            <li>
+                                <i class='bx bx-right-arrow-circle arrow'></i>
+                                <h5>12 Nov</h5>
+                                <i class='bx bxs-right-arrow-alt blue-arrow'></i>
+                                <p>Responded to need “In-Kind Opportunity”</p>
+                            </li>
+                            <li>
+                                <button>
+                                    <a href="#">View More <i class='bx bxs-right-arrow-alt'></i></a>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="top-cities mid-card">
+                    <h2>Top Cities Selling Product</h2>
+                    <div class="top-cities-icon">
+                        <i class="bx bx-map-pin"></i>
+                        <h3>1,456</h3>
+                        <p>San Francisco</p>
+                    </div>
+                    <div class="top-cities-table">
+                        <table>
+                            <tr>
+                                <td>San Francisco</td>
+                                <td><h5>1,456</h5></td>
+                                <td>
+                                    <hr class="line-blue">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Los Angeles</td>
+                                <td><h5>1,123</h5></td>
+                                <td>
+                                    <hr class="line-green">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>San Diego</td>
+                                <td><h5>1,026</h5></td>
+                                <td>
+                                    <hr class="line-yellow">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    table starts here-->
+        <div class="table-card">
+            <div class="table-padding">
+                <header>
+                    <h4>Latest Transaction</h4>
+                </header>
+                <table>
+                    <tr class="table-head">
+                        <th><input type="checkbox"></th>
+                        <th>Order ID</th>
+                        <th>Billing Name</th>
+                        <th>Date</th>
+                        <th>Total</th>
+                        <th>Payment Status</th>
+                        <th>Payment Method</th>
+                        <th>View Details</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td class="ID">#SK2540</td>
+                        <td class="three-in-one">Neal Matthews</td>
+                        <td class="three-in-one">07 Oct, 2019</td>
+                        <td class="three-in-one">$400</td>
+                        <td class="status"><span>Paid</span></td>
+                        <td class="method"><i class='bx bxl-mastercard'></i>Mastercard</td>
+                        <td>
+                            <button>View Details</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td class="ID">#SK2541</td>
+                        <td class="three-in-one">Jamal Burnett</td>
+                        <td class="three-in-one">07 Oct, 2019</td>
+                        <td class="three-in-one">$380</td>
+                        <td class="chargeback"><span>Chargeback</span></td>
+                        <td class="method"><i class='bx bxl-visa'></i>Visa</td>
+                        <td>
+                            <button>View Details</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td class="ID">#SK2542</td>
+                        <td class="three-in-one">Juan Mitchell</td>
+                        <td class="three-in-one">06 Oct, 2019</td>
+                        <td class="three-in-one">$384</td>
+                        <td class="status"><span>Paid</span></td>
+                        <td class="method"><i class='bx bxl-paypal'></i>Paypal</td>
+                        <td>
+                            <button>View Details</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td class="ID">#SK2543</td>
+                        <td class="three-in-one">Barry Dick</td>
+                        <td class="three-in-one">05 Oct, 2019</td>
+                        <td class="three-in-one">$412</td>
+                        <td class="status"><span>Paid</span></td>
+                        <td class="method"><i class='bx bxl-mastercard'></i>Mastercard</td>
+                        <td>
+                            <button>View Details</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td class="ID">#SK2541</td>
+                        <td class="three-in-one">Jamal Burnett</td>
+                        <td class="three-in-one">07 Oct, 2019</td>
+                        <td class="three-in-one">$380</td>
+                        <td class="refund"><span>Refund</span></td>
+                        <td class="method"><i class='bx bxl-visa'></i>Visa</td>
+                        <td>
+                            <button>View Details</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td class="ID">#SK2545</td>
+                        <td class="three-in-one">Jacob Hunter</td>
+                        <td class="three-in-one">04 Oct, 2019</td>
+                        <td class="three-in-one">$392</td>
+                        <td class="status"><span>Paid</span></td>
+                        <td class="method"><i class='bx bxl-paypal'></i>Paypal</td>
+                        <td>
+                            <button>View Details</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <div class="foot first">2020 © Skote.</div>
+        <div class="foot second">Built by Shota Donguzashvili</div>
+    </footer>
+</section>
+
+<script src="./index.js">
+
+</script>
+</body>
+</html>

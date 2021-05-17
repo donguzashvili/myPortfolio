@@ -1,0 +1,152 @@
+@import "main";
+
+html, body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+.main-content{
+  background-image: url("../style/img/photo-1497796742626-fe30f204ec54.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+.center-box{
+  justify-content: center;
+  align-items: center;
+  display: none;
+  .questions-box{
+    background-color: rgba(169, 169, 169, 0.9);
+    padding: 20px;
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: black 11px 12px 23px 7px;
+    @media screen and (max-width: 500px){
+      width: 100%;
+    }
+    #finished-result{
+      display: none;
+      justify-content: center;
+      align-items: center;
+
+      button{
+        border-color: blue;
+        padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: red 2px 2px;
+        @include main-font(1rem, black);
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+    h1{
+      @media screen and (max-width: 768px){
+        margin: 5px auto;
+      }
+    }
+    h5{
+      @include main-font(1.5rem, black);
+      text-align: center;
+      @media screen and (max-width: 768px){
+        margin: 5px auto;
+      }
+      @media screen and (max-width: 400px) {
+        font-size: 1.2rem;
+      }
+    }
+    .answers{
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(4, 1fr);
+
+      @media screen and (max-width: 540px){
+        grid-template-columns: repeat(2, 1fr);
+
+      }
+      button{
+        padding: 10px;
+        cursor: pointer;
+        margin: 5px;
+        border-radius: 5px;
+        @include main-font(1rem, black);
+      }
+    }
+  }
+
+}
+  h1{
+    @include d-center;
+    @include main-font(2rem,white);
+    padding: 10px;
+    text-shadow: blue 1px 1px;
+    cursor: default;
+  }
+  .info{
+    display: block;
+    input{
+      display: flex;
+      margin: 0 auto;
+      padding: 0.8rem;
+      width: 43%;
+      justify-content: center;
+      @include main-font(0.9rem, black);
+      cursor: pointer;
+    }
+    form{
+      @include d-center;
+      @media screen and (max-width: 768px){
+        display: grid;
+        justify-content: unset;
+      }
+      #greet-container{
+        @include main-font(1.5rem, white);
+        @include d-center;
+      }
+      select{
+        display: flex;
+        padding: 0.8rem;
+        margin: 5px;
+        @media screen and (max-width: 768px){
+          width: 90%;
+          margin: 5px auto;
+          input{
+            cursor: pointer!important;
+          }
+        }
+      }
+      input{
+        padding: 1em;
+        margin: 5px;
+        outline: none;
+        border-radius: 5px;
+        @include main-font(0.9rem, black);
+        cursor: unset;
+        @media screen and (max-width: 768px){
+          width: 90%;
+          margin: 5px auto;
+        }
+      }
+      #user-btn{
+        @include btn-color;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+
+//js styles
+.display-none{
+  display: none!important;
+}
+.display-flex{
+  display: flex!important;
+}

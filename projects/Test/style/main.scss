@@ -1,0 +1,14 @@
+
+@mixin d-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin main-font($font-size,$color){
+  $font-family: 'poppins', sans-serif;
+  font-size: $font-size;
+  color: $color;
+}
+@mixin btn-color{
+  background-color: rgba(169, 169, 169, 0.8);
+}
