@@ -494,6 +494,9 @@ display: flex;
     right: 0 !important;
     left: unset !important;
 }
+.first-react{
+    background-image: url("../style/img/weather.jpg");
+}
 .first-scss{
     background-image: url("../style/img/second.jpg");
 }
@@ -553,10 +556,9 @@ display: flex;
 .my-projects{
     display: flex;
     position: relative;
-    margin: 0 0 10px 10px;
     overflow: hidden;
     height: 244px;
-    width: 237px;
+    width: 100%;
     border-radius: 5px;
 }
 #portfolio{
@@ -610,10 +612,15 @@ display: flex;
 #portfolio div{
     display: flex;
     justify-content: center;
+    width: 100%;
+    padding: 0 5px;
+    grid-gap: 5px;
+    overflow-x: hidden;
 }
 .grid-div{
     display: grid!important;
     grid-template-columns: repeat(3, 1fr);
+    width: 100%;
 }
 /*media querys*/
 @media screen and (max-width: 700px){

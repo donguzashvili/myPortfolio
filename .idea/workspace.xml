@@ -56,79 +56,10 @@
       <change afterPath="$PROJECT_DIR$/../food/main.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../food/style/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../githubUsers/.idea/githubUsers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/SignUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/place-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/signUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/Login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/Login.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/Login.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/_tools.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/b2bMain.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/b2bMain.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/b2bMain.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/details.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/details.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/b2bholidays.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/batumi.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/bg-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/canyon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/engFlag.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/holiday inn/149519.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/holiday inn/e78bf1278a347de9136c9e89163d36bb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/holiday inn/main.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/holiday inn/room 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/holiday inn/room 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/holiday inn/room 4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/hotel-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/images.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/login background.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/racha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/racha/main-racha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/racha/racha1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/racha/racha2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/racha/racha3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/racha/racha4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/img/svaneti.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/place-details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/place-details.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/place-details.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/search.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/search.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/variable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/variable.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/style/variable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Hotels/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/first sass/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../todo/.idea/Javascript.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Sentobar/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Sentobar/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Sentobar/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Sentobar/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/bootstrap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/first sass/_main-content-vol2.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/first sass/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/first sass/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/first sass/style/_diagram.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/first sass/style/_diagram.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/first sass/style/_main-content-vol2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/first sass/style/_main-content-vol2.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/first sass/style/_main-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/first sass/style/_main-content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/first sass/style/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/first sass/style/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/first sass/style/img/Capture.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/first sass/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/first sass/style/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/first sass/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/projects/first sass/style/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/food/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/food/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/mobile page/home1.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/mobile page/home1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/mobile page/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/mobile page/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/mobile page/style/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/mobile page/style/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/mobile page/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/mobile page/style/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/mobile page/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/projects/mobile page/style/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +99,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621258263314</updated>
-      <workItem from="1621258264664" duration="2851000" />
+      <workItem from="1621258264664" duration="3585000" />
+      <workItem from="1621368584475" duration="143000" />
+      <workItem from="1621440029300" duration="10000" />
+      <workItem from="1623631156251" duration="1185000" />
     </task>
     <servers />
   </component>
@@ -185,5 +119,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
