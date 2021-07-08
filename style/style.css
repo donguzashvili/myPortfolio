@@ -464,7 +464,7 @@ display: flex;
 
 }
 .my-img img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .title{
     color: white;
@@ -517,6 +517,9 @@ display: flex;
 }
 .quiz{
     background-image: url("../style/img/seventh.jpg");
+}
+.password{
+    background-image: url("../style//img//passwordGen.jpg");
 }
 .img{
     height: auto;

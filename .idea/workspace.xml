@@ -58,8 +58,6 @@
       <change afterPath="$PROJECT_DIR$/../githubUsers/.idea/githubUsers.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../todo/.idea/Javascript.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +100,8 @@
       <workItem from="1621258264664" duration="3585000" />
       <workItem from="1621368584475" duration="143000" />
       <workItem from="1621440029300" duration="10000" />
-      <workItem from="1623631156251" duration="1185000" />
+      <workItem from="1623631156251" duration="1373000" />
+      <workItem from="1623691143700" duration="592000" />
     </task>
     <servers />
   </component>
