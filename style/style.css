@@ -455,7 +455,7 @@ abbr:hover::before {
 }
 .my-img {
   height: 250px;
-  width: 460px;
+  width: 260px;
   overflow: hidden;
   border-radius: 50%;
   margin: 3% 0 0 3%;
